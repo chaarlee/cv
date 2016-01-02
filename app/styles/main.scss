@@ -23,6 +23,11 @@ p {
   margin: auto;
 }
 
+#left,
+#right {
+  position: relative;
+}
+
 .side {
   background-color: #259b24 !important;
   color: white !important;
@@ -71,7 +76,14 @@ p {
   img {
     max-width: 80%;
     margin-top: 20px;
+    opacity: 0.8;
   }
+
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  };
 }
 
 .md-fab {
@@ -130,4 +142,10 @@ quotation {
   .material-icons {
     font-size: 64px;
   }
+}
+
+#dice-game {
+  position: absolute;
+  left: -40px;
+  top: 40px;
 }

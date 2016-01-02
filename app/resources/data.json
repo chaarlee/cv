@@ -223,7 +223,13 @@
 	],
 	"awards": [
 		{
-			"title": "CodinGame Worldcup 1. place",
+			"title": "Young Leader of The Year 2015",
+			"issuer": "CoachingTeam",
+			"date": "2015.11",
+			"description": "9th place"
+		},
+		{
+			"title": "CodinGame Worldcup 1st place",
 			"issuer": "Programming",
 			"date": "2015.06",
 			"description": "JavaScript"
@@ -315,6 +321,11 @@
 			"name": "LinkedIn",
 			"url": "https://hu.linkedin.com/pub/csaba-szirják/83/ab7/912",
 			"icon": "link"
+		},
+		{
+			"name": "Competition of Young Leader of The Year 2015",
+			"url": "http://chaarlee.hu/EFVD",
+			"icon": "description"
 		},
 		{
 			"name": "VizualizeMe",

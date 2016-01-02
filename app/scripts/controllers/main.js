@@ -11,7 +11,7 @@ angular.module('cvApp')
   .controller('MainCtrl', function ($scope, $http) {
     
     $http.get('/resources/data.json').success(function(data) {
-    	console.log("data",data);
+    	// console.log("data",data);
      	$scope.data = data;
     });
   });
