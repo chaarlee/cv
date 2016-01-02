@@ -1,0 +1,22 @@
+<md-card layout-padding>
+  <md-card-title>
+    <md-card-title-text>
+      <h3 class="md-display-1">
+        <i class="material-icons">star</i>
+        Certificates
+      </h3>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <div class="timeline" layout="row" ng-repeat="d in data.certificates">
+      <div layout="column" flex="35">
+        <span class="md-title">{{d.issuer}}</span>
+        <span class="md-subhead">{{d.date}}</span>
+      </div>
+      <div layout="column" flex="65">
+        <span class="md-headline">{{d.title}}</span>
+        <p ng-if="d.description">{{d.description}}</p>
+      </div>
+    </div>
+  </md-card-content>
+</md-card>

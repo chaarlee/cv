@@ -1,0 +1,17 @@
+<md-card id="introduction" layout-padding>
+  <md-card-title>
+    <md-card-title-text>
+      <h3 class="md-display-1">
+        <i class="material-icons">done_all</i>
+        I'm good in ...
+      </h3>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <div ng-repeat="d in data['good-ins']">
+      <md-button class="md-fab md-primary"><i class="material-icons">done</i></md-button> 
+      <span class="md-headline">{{d}}</span>
+      <md-divider md-inset ng-if="!$last"></md-divider>
+    </div>
+  </md-card-content> 
+</md-card>

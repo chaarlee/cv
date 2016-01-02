@@ -1,0 +1,32 @@
+<md-card layout-padding>
+  <md-card-title>
+    <md-card-title-text>
+      <h3 class="md-display-1">
+        <i class="material-icons">bookmark</i>
+        References
+      </h3>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <!-- <div class="timeline" layout="row" ng-repeat="d in data.references">
+      <div layout="column" flex="35">
+        <span class="md-title">{{d.issuer}}</span>
+        <span class="md-subhead">{{d.date}}</span>
+      </div>
+      <div layout="column" flex="65">
+        <span class="md-headline">{{d.title}}</span>
+        <p ng-if="d.description">{{d.description}}</p>
+      </div>
+    </div> -->
+    <md-list>
+      <md-list-item class="md-2-line reference" ng-repeat="d in data.references" layout="row" layout-wrap>
+        <div class="md-item-text md-whiteframe-z1" flex>
+          <a href="{{d.url}}" target="_blank">
+            <h3>{{d.name}}</h3>
+            <p>{{d.description}}</p>
+          </a>
+        </div>
+      </md-list-item>
+    </md-list>
+  </md-card-content>
+</md-card>

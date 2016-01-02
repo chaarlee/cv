@@ -1,0 +1,25 @@
+<md-card layout-padding>
+  <md-card-title>
+    <md-card-title-text>
+      <h3 class="md-display-1">
+        <i class="material-icons">work</i>
+        Work Experience
+      </h3>
+    </md-card-title-text>
+  </md-card-title>
+  <md-card-content>
+    <div class="timeline" layout="row" ng-repeat="d in data['work-experiences']">
+      <div layout="column" flex="35">
+        <span class="md-title">{{d.company}}</span>
+        <span class="md-subhead">{{d['date-from']}} - {{d['date-to']}}</span>
+        <img ng-if="d.logo" ng-src="{{d.logo}}" />
+      </div>
+      <div layout="column" flex="65">
+        <span class="md-headline">{{d.position}}</span>
+        <p ng-if="d.description">{{d.description}}</p>
+        <md-chips ng-model="d.tags" readonly="true"></md-chips>
+        <!-- <md-divider ng-if="!$last"></md-divider> -->
+      </div>
+    </div>
+  </md-card-content>
+</md-card>

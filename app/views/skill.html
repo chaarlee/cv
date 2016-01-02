@@ -1,0 +1,14 @@
+<div id="skills">
+  <md-card class="side" ng-repeat="d in data.skills" layout-padding>
+    <h3 class="md-headline">
+      <i class="material-icons">{{d.icon}}</i>
+      {{d.group}}
+    </h3>
+    <div>
+      <div ng-repeat="(skill, value) in d.values">
+        <span>{{skill}}</span>
+        <md-slider class="md-primary" md-discrete ng-disabled="true" step="1" min="0" max="5" ng-model="value" aria-label="{{skill}}"></md-slider>
+      </div>
+    </div>
+  </md-card>
+</div>

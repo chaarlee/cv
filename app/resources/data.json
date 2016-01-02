@@ -1,0 +1,345 @@
+{
+	"name": "Csaba Szirják",
+	"image": "images/szirjak.csaba.jpg",
+	"roles": ["Leader","Product Owner","Manager","Developer"],
+	"birth": "1983.02.24.",
+	"phone": "+36 70/242-7543",
+	"email": "csaba@szirjak.com",
+	"address": "Hungary, Budapest X.",
+	"introduction": "Az informatika területén dolgozom 2000 eleje óta. Kezdetben fejlesztésekkel foglalkoztam szabadúszóként, majd rájöttem, hogy a megszerzett tudást sokkal jobban hasznosíthatom vezetőként. Ebben a szerepben találtam meg igazán önmagam, mert IT vezetőként továbbra is problémákat kell megoldanom és rendszereket fejlesztenem innovatív területeken. A különbség az, hogy most már nem csak alkalmazásokat, hanem csapatot is építek. 2015-ben a Startupper társasjátékot fejlesztettem leendő vezetőknek és menedzsereknek, hogy játékos formában tudjam a szakmát minél több érdeklődővel megismertetni.",
+	"motivation": "A folyamatos fejlődés (KaiZen) híve vagyok, ezért nem csak magamat, de másokat is arra ösztönzök, hogy folyamatosan tanuljanak. A kihívásokkal teli környezetet szeretem, mert itt tudom a legtöbbet kihozni magamból, itt szabadon alkothatok és ilyenkor érzem magam igazán hasznosnak.",
+	"posy": "Stay Hungry. Stay Foolish.",
+	"good-ins": [
+		"Communication",
+		"Understand the goals and needs (5W)",
+		"Focusing and fulfil the strategy",
+		"Solve problems creatively",
+		"Undertake conflicts for evolution",
+		"Design and implement processes",
+		"Introduce agile (Scrum, Kanban) methodologies",
+		"Automate the workflows, make them transparency",
+		"Find the right position/roles for the colleagues",
+		"Develop and coach others",
+		"Inspire and motivate team members",
+		"Work well under pressure (two people can replace me)"
+	],
+	"work-experiences": [
+		{
+			"company": "Dolphio Technologies",
+			"logo": "images/dolphio.png",
+			"date-from": "2014.01",
+			"date-to": "Present",
+			"position": "Head of Software Development",
+			"description": "Lead a 15-person software development team at 3 different location (Budapest, Miskolc, Debrecen). The main profile of the team: develope online applications and services. The company won 4-times the Deloitte Technologie Fast 50 award.",
+			"tags": ["Team Leader", "Product Owner", "Coach", "Scrum Master", "Project Manager", "Architect", "UI/UX", "Agile", "Scrum", "Kanban", "Java", "AngularJS", "NodeJS", "REST", "SCSS", "MySQL", "MongoDB"]
+		},
+		{
+			"company": "iData",
+			"logo": "images/idata.jpg",
+			"date-from": "2012.01",
+			"date-to": "2013.12",
+			"position": "Head of Development",
+			"description": "Lead a 15-person softver and hardware development team. The company main profile: GPS tracking for cargo fleet. The company won 3-times the Deloitte Technologie Fast 50 award and iData was The Intelligent Company of The Year 2014.",
+			"tags": ["Team Leader", "Project Manager", "Online marketing", "Developer", "Agile", "Scrum", "Java", "KendoUI", "SEO"]
+		},
+		{
+			"company": "Q-Gears",
+			"logo": "images/qgears.png",
+			"date-from": "2008.04",
+			"date-to": "2011.12",
+			"position": "Developer",
+			"description": "Kidney dialysis machine development for BBraun. Touchscreen browser base display with Java backend.",
+			"tags": ["Java Developer", "Java", "JavaScript", "PostgreSQL", "WebSocket", "jQuery", "HighCharts", "CSS3"]
+		},
+		{
+			"company": "Magnolia ITS / Entrepreneur",
+			"logo": "images/magnolia.png",
+			"date-from": "2003.01",
+			"date-to": "Present",
+			"position": "Developer, Project Manager, Sales",
+			"description": "Webpages, online applications and TV competitions developing. Own PHP base framework design and implement.",
+			"tags": ["Web Developer", "Java Developer", "PHP", "JavaScript", "jQuery", "HTML5", "CSS3", "UI/UX", "SEO", "Java", "NodeJS", "MySQL", "PostgreSQL", "Oracle", "MongoDB", "WordPress", "PhotoShop", "Smarty", "HighCharts", "LessCSS"]
+		}
+	],
+	"educations": [
+		{
+			"school": "Budapest Corvinus Egyetem",
+			"logo": "images/corvinus.gif",
+			"city": "Budapest",
+			"date-from": "2013.09",
+			"date-to": "2014.12",
+			"description": "Economic Informatics / Gazdasági Informatikus",
+			"tags": ["Excel","Statistics"]
+		},
+		{
+			"school": "Budapesti Gazdasági és Műszaki Egyetem",
+			"logo": "images/bme.jpg",
+			"city": "Budapest",
+			"date-from": "2001.09",
+			"date-to": "2012.07",
+			"description": "Computer Engineering / Műszaki Informatikus",
+			"tags": ["Java", "PHP", "C/C++", "Pascal", "Algorithm theory", "UML", "Databases"]
+		},
+		{
+			"school": "Arany János Általános Iskola és Nyolcosztályos Gimnázium",
+			"logo": "images/arany.jpg",
+			"city": "Százhalombatta",
+			"date-from": "1993.09",
+			"date-to": "2001.06",
+			"description": "",
+			"tags": ["Mathematics", "Physics", "Handball"]
+		}
+	],
+	"skills": [
+		{
+			"group": "Leader",
+			"icon": "group",
+			"values": {
+				"Leadership": 5,
+				"Communication": 5,
+				"Loyalty": 5,
+				"Strategy": 5,
+				"Recruitment / Interviewing": 4,
+				"Coaching": 4,
+				"Talent Management": 5,
+				"Empathy": 5,
+				"Build System": 5,
+				"Self-Motivation": 5
+			}
+		},
+		{
+			"group": "Product Owner",
+			"icon": "dashboard",
+			"values": {
+				"5W": 4,
+				"Plan & Design": 5,
+				"Vision / Big Picture": 5,
+				"Backlog": 4,
+				"Response to change": 5,
+				"Say NO": 4,
+				"UI/UX": 3
+			}
+		},
+		{
+			"group": "Manager",
+			"icon": "insert_chart",
+			"values": {
+				"Transparency": 5,
+				"Project Management": 4,
+				"Agile": 5,
+				"Scrum": 5,
+				"Kanban": 4,
+				"Holocracy": 3
+			}
+		},
+		{
+			"group": "Developer",
+			"icon": "code",
+			"values": {
+				"PHP": 4,
+				"JavaScript": 4,
+				"NodeJS": 3,
+				"HTML5": 4,
+				"CSS3": 4,
+				"jQuery": 4,
+				"AngularJS": 1,
+				"Java": 3,
+				"REST": 3,
+				"MySQL": 4,
+				"PostgreSQL": 2,
+				"MongoDB": 2,
+				"HighCharts": 4,
+				"Architect": 4,
+				"Test/QA": 2,
+				"DevOps": 2
+			}
+		},
+		{
+			"group": "Application",
+			"icon": "apps",
+			"values": {
+				"Google Tools": 4,
+				"TargetProcess": 5,
+				"Trello": 5,
+				"OS X": 4,
+				"Linux": 3,
+				"Windows": 3,
+				"MS Office": 4,
+				"PhotoShop": 2,
+				"SEO": 3,
+				"WordPress": 3
+			}
+		},
+		{
+			"group": "Other",
+			"icon": "done",
+			"values": {
+				"Hungarian": 5,
+				"English": 3,
+				"Driving License": 4,
+				"Handball": 5,
+				"Squash": 4,
+				"Boardgame": 4
+			}
+		}
+	],
+	"certificates": [
+		{
+			"title": "Leadership (2 days)",
+			"issuer": "Franklin Covey",
+			"date": "2013.12"
+		},
+		{
+			"title": "7 habits (2 days)",
+			"issuer": "Franklin Covey",
+			"date": "2013.11"
+		},
+		{
+			"title": "Agile methodologies (2 days)",
+			"issuer": "Training 360",
+			"date": "2013.10",
+			"description": "Scrum, Kanban, Lean"
+		},
+		{
+			"title": "Leadership training (4 x 2 days)",
+			"issuer": "Humánprofit",
+			"date": "2013.08"
+		},
+		{
+			"title": "Strategy planning training (2 days)",
+			"issuer": "Emtrek",
+			"date": "2012.07"
+		},
+		{
+			"title": "Motivation training (3 days)",
+			"issuer": "Emtrek",
+			"date": "2012.02"
+		},
+		{
+			"title": "Mensa 1%",
+			"issuer": "Mensa HungarIQa",
+			"date": "2008"
+		}
+	],
+	"awards": [
+		{
+			"title": "CodinGame Worldcup 1. place",
+			"issuer": "Programming",
+			"date": "2015.06",
+			"description": "JavaScript"
+		},
+		{
+			"title": "Top scorer",
+			"issuer": "Handball",
+			"date": "2009",
+			"description": "Budapest I. class"
+		},
+		{
+			"title": "Catan Hungarian champion",
+			"issuer": "Boardgame",
+			"date": "2006",
+			"description": "Go to Worldcup"
+		},
+		{
+			"title": "ACM programming contest",
+			"issuer": "Programming",
+			"date": "2004",
+			"description": "Central European Finals"
+		},
+		{
+			"title": "Best player",
+			"issuer": "Handball",
+			"date": "2000",
+			"description": "National tournament (Szekszárd)"
+		},
+		{
+			"title": "Good contest results",
+			"issuer": "Mathematics",
+			"date": "1990 - 2000"
+		},
+		{
+			"title": "Athlete of the year",
+			"issuer": "Athletics",
+			"date": "1995"
+		}
+	],
+	"references": [
+		{
+			"name": "DCSIM",
+			"description": "Online simulation and analyst software for Data Centers",
+			"url": "http://persecutor.hu/hu/hirek/palyazati-hirek/adatkozpont-technologiai-innovacio"
+		},
+		{
+			"name": "E-Útdíj",
+			"description": "HU-GO electronic toll system",
+			"url": "http://www.itrack.hu/icontrol"
+		},
+		{
+			"name": "TV-s vetélkedők",
+			"description": "Legyen Ön is Milliomos, 4N4LN, Egy perc és nyersz, 40 Milliós játszma, Bumm",
+			"url": "https://www.youtube.com/watch?v=Pawi8lYfdqs"
+		},
+		{
+			"name": "BBraun",
+			"description": "Kidney dialysis machine",
+			"url": "http://www.bbraun.hu/"
+		},
+		{
+			"name": "Audi Motorfejlesztés",
+			"description": "Friction database and virtual engine simulation",
+			"url": "https://audi.hu/"
+		},
+		{
+			"name": "Poety CMS",
+			"description": "Developing own PHP base framwork",
+			"url": "http://poetyltd.com/"
+		},
+		{
+			"name": "Kamerás póker asztal",
+			"description": "Custom developed card recognizer and TV labeling system. Face the  Pro, Unibet Poker Milliomos, Budapest Poker Open, All-in",
+			"url": "https://www.youtube.com/watch?v=YS4-OT7HAaI"
+		},
+		{
+			"name": "Startupper",
+			"description": "Boardgame for to-be leaders and managers",
+			"url": "http://www.startuppergame.com"
+		},
+		{
+			"name": "Haz.hu",
+			"description": "Find qualitative general contractor for families",
+			"url": "http://www.haz.hu"
+		}
+	],
+	"links": [
+		{
+			"name": "LinkedIn",
+			"url": "https://hu.linkedin.com/pub/csaba-szirják/83/ab7/912",
+			"icon": "link"
+		},
+		{
+			"name": "VizualizeMe",
+			"url": "http://vizualize.me/chaarlee",
+			"icon": "insert_chart"
+		},
+		{
+			"name": "MBTI: ENFJ",
+			"url": "http://lelektanitipusok.net/tipusok/nf/enfj/jellemzes",
+			"icon": "gps_fixed"
+		},
+		{
+			"name": "PAPI3 - Sales and Leadership profile",
+			"url": "http://chaarlee.hu/cv/doc/papi3_szirjak_csaba-2014.10.19.pdf",
+			"icon": "contacts"
+		},
+		{
+			"name": "S-CPI profile",
+			"url": "http://chaarlee.hu/cv/doc/cpi_szirjak_csaba-2013.10.31.pdf",
+			"icon": "account_box"
+		},
+		{
+			"name": "Personality profile",
+			"url": "http://chaarlee.hu/cv/doc/szemelyisegprofil_szirjak_csaba-2012.06.26.pdf",
+			"icon": "account_circle"
+		}
+	]
+}

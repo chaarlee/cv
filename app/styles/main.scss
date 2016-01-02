@@ -1,0 +1,129 @@
+body {
+  /*background: url('../images/bricks.jpg') center center no-repeat;
+  background-size: 100% 100%;
+  background-position: fixed;*/
+  background-color: #ebebeb;
+  margin: 0;
+  padding: 30px;
+  height: auto;
+}
+
+h3 {
+  margin: 5px;
+  padding: 0px;
+}
+
+p {
+  text-align: justify;
+}
+
+#container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.side {
+  background-color: #259b24 !important;
+  color: white !important;
+
+  h3 {
+    margin-bottom: 10px;
+    i {
+      float: left;
+      padding-top: 5px;
+      padding-right: 10px;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+#profile {
+  position: relative;
+  text-shadow: 0px 0px 3px black;
+
+  #name {
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+  }
+
+  #roles {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+  }
+}
+
+.timeline {
+  padding-left: 70px;
+  padding-top: 10px;
+  background: url("../images/timeline.png") left top no-repeat;
+
+  img {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+}
+
+.md-fab {
+  i {
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+md-chips.md-cvTheme-theme .md-chips {
+  box-shadow: none;
+}
+
+.reference {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 8px; 
+
+  a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: #259b24;
+    }
+  }
+
+  .md-item-text {
+    padding: 8px;
+    background: #f0f0f0;
+    border-radius: 3px; 
+  }
+  .md-item-text h3,
+  .md-item-text p {
+    padding: 0;
+    margin: 0; 
+  }
+  .md-item-text p {
+    font-size: 12px;
+  }
+}
+
+quotation {
+  font-size: 42px;
+  font-style: italic;
+  color: #cecece;
+  float: right;
+  margin-top: 20px;
+
+  .material-icons {
+    font-size: 42px;
+  }
+}

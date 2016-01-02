@@ -1,0 +1,10 @@
+<div id="links">
+    <section layout="row" layout-align="center center" layout-wrap>
+      <md-button ng-repeat="d in data.links" class="md-fab md-primary">
+          <a href="{{d.url}}" target="_blank">
+            <i class="material-icons">{{d.icon}}</i>
+            <md-tooltip>{{d.name}}</md-tooltip>
+          </a>
+      </md-button>
+    </section>
+</div>

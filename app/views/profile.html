@@ -1,0 +1,37 @@
+<md-card class="side">
+  <div id="profile">
+    <img src="{{data.image}}" />
+    <h1 id="name" class="md-display-1">{{data.name}}</h1>
+    <h2 id="roles" class="md-subhead">{{data.roles.join(', ')}}</h2>
+  </div>
+  <div id="contact" layout-padding>
+    <div>
+      <h3 class="md-headline">
+        <i class="material-icons">phone</i>
+        <a href="tel:{{data.phone}}">{{data.phone}}</a>
+        <!-- <md-tooltip>phone</md-tooltip> -->
+      </h3>
+    </div>
+    <div>
+      <h3 class="md-headline">
+        <i class="material-icons">email</i>
+        <a href="mailto:{{data.email}}">{{data.email}}</a>
+        <!-- <md-tooltip>email</md-tooltip> -->
+      </h3>
+    </div>
+    <div>
+      <h3 class="md-headline">
+        <i class="material-icons">location_on</i>
+        {{data.address}}
+        <!-- <md-tooltip>address</md-tooltip> -->
+      </h3>
+    </div>
+    <div>
+      <h3 class="md-headline">
+        <i class="material-icons">today</i>
+        {{data.birth}}
+        <!-- <md-tooltip>birth</md-tooltip> -->
+      </h3>
+    </div>
+  </div>  
+</md-card>
