@@ -1,4 +1,5 @@
 {
+	"lang": "en",
 	"name": "Csaba Szirják",
 	"image": "images/szirjak.csaba.jpg",
 	"roles": ["Leader","Product Owner","Manager","Developer"],
@@ -6,8 +7,15 @@
 	"phone": "+36 70/242-7543",
 	"email": "csaba@szirjak.com",
 	"address": "Hungary, Budapest X.",
-	"introduction": "Az informatika területén dolgozom 2000 eleje óta. Kezdetben fejlesztésekkel foglalkoztam szabadúszóként, majd rájöttem, hogy a megszerzett tudást sokkal jobban hasznosíthatom vezetőként. Ebben a szerepben találtam meg igazán önmagam, mert IT vezetőként továbbra is problémákat kell megoldanom és rendszereket fejlesztenem innovatív területeken. A különbség az, hogy most már nem csak alkalmazásokat, hanem csapatot is építek. 2015-ben a Startupper társasjátékot fejlesztettem leendő vezetőknek és menedzsereknek, hogy játékos formában tudjam a szakmát minél több érdeklődővel megismertetni.",
-	"motivation": "A folyamatos fejlődés (KaiZen) híve vagyok, ezért nem csak magamat, de másokat is arra ösztönzök, hogy folyamatosan tanuljanak. A kihívásokkal teli környezetet szeretem, mert itt tudom a legtöbbet kihozni magamból, itt szabadon alkothatok és ilyenkor érzem magam igazán hasznosnak.",
+	"qrcode": "images/qrcode.png",
+	"introduction": {
+		"en": "I have worked at IT area since early 2000. Initially I dealt with software development as freelancer, later I realized, I could use better my acquired knowleadge as leader. I have found really myself in this role, because as IT leader I still have to solve problems and build systems at innovative areas. The different is that now I not only develope applications, but also build team. At 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could familiarize the profession with interested people in playful.",
+		"hu": "Az informatika területén dolgozom 2000 eleje óta. Kezdetben fejlesztésekkel foglalkoztam szabadúszóként, majd rájöttem, hogy a megszerzett tudást sokkal jobban hasznosíthatom vezetőként. Ebben a szerepben találtam meg igazán önmagam, mert IT vezetőként továbbra is problémákat kell megoldanom és rendszereket fejlesztenem innovatív területeken. A különbség az, hogy most már nem csak alkalmazásokat, hanem csapatot is építek. 2015-ben a Startupper társasjátékot fejlesztettem leendő vezetőknek és menedzsereknek, hogy játékos formában tudjam a szakmát minél több érdeklődővel megismertetni."
+	},
+	"motivation": {
+		"en": "I belive in the continuous learning (KaiZen), therefore I not only teach myself, I try to inspire and coaching others to the continuous learning. I like the challenges, because I can get the most from myself, I could be free creative and I feel I'm very effective and helpful.",
+		"hu": "A folyamatos fejlődés (KaiZen) híve vagyok, ezért nem csak magamat, de másokat is arra ösztönzök, hogy folyamatosan tanuljanak. A kihívásokkal teli környezetet szeretem, mert itt tudom a legtöbbet kihozni magamból, itt szabadon alkothatok és ilyenkor érzem magam igazán hasznosnak."
+	},
 	"posy": "Stay Hungry. Stay Foolish.",
 	"good-ins": [
 		"Communication",
@@ -21,6 +29,7 @@
 		"Find the right position/roles for the colleagues",
 		"Develop and coach others",
 		"Inspire and motivate team members",
+		"Extreme fast programming",
 		"Work well under pressure (two people can replace me)"
 	],
 	"work-experiences": [
@@ -297,7 +306,7 @@
 		},
 		{
 			"name": "Poety CMS",
-			"description": "Developing own PHP base framwork",
+			"description": "Developing own PHP base framwork and implement more than 30 website",
 			"url": "http://poetyltd.com/"
 		},
 		{

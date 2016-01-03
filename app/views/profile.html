@@ -1,6 +1,6 @@
 <md-card class="side">
   <div id="profile">
-    <img src="{{data.image}}" />
+    <img src="{{data.image}}" alt="{{data.name}}" />
     <h1 id="name" class="md-display-1">{{data.name}}</h1>
     <h2 id="roles" class="md-subhead">{{data.roles.join(', ')}}</h2>
   </div>
@@ -32,6 +32,9 @@
         {{data.birth}}
         <!-- <md-tooltip>birth</md-tooltip> -->
       </h3>
+    </div>
+    <div id="qrcode" layout-padding>
+      <img ng-src="{{data.qrcode}}" alt="qrcode" />
     </div>
   </div>  
 </md-card>

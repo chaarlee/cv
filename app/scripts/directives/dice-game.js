@@ -25,7 +25,7 @@ angular.module('cvApp')
 			add: '&'
 		},
      	controller: function($scope) {
-      		$scope.throw = function() {
+      		$scope.roll = function() {
       			var value = Math.ceil(Math.random()*6);
       			// console.log('throw',value);
       			$scope.value = value;
@@ -34,7 +34,7 @@ angular.module('cvApp')
       			if(value === 6) {
       				$mdToast.show(
 				      $mdToast.simple()
-				        .textContent('Nice throw! Push the ALT+SHIFT+E to find the Easter Egg...')
+				        .textContent('Nice roll! Push the ALT+SHIFT+E to find the Easter Egg...')
 				        .action('OK')
 				        .highlightAction(true)
 				        .position('top right')

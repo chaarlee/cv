@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc directive
- * @name cvApp.directive:noughtsAndCrosses
+ * @name cvApp.directive:ticTacToe
  * @description
- * # noughtsAndCrosses
+ * # ticTacToe
  */
 angular.module('cvApp')
-  .directive('noughtsAndCrosses', function () {
+  .directive('ticTacToe', function () {
     return {
-      templateUrl: 'views/noughts-and-crosses.html',
+      templateUrl: 'views/tic-tac-toe.html',
       scope: {
 			datasource: '=',
 			add: '&'
@@ -76,7 +76,18 @@ angular.module('cvApp')
      				// console.log("The winner is: "+w);
      				$scope._winner = w;
      			}
+                else if($scope.isEnd()) {
+                    $scope._winner = '-';
+                }
      		}
+            $scope.isEnd = function() {
+                for(var k in $scope.board) {
+                    if(!$scope.board[k]) {
+                        return false;
+                    }
+                }
+                return true;
+            }
      		$scope.player = function(n) {
  				if($scope.put(n,'x') === 'x') {
  					$scope.computer();	

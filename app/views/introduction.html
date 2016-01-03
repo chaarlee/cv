@@ -5,10 +5,15 @@
         <i class="material-icons">account_circle</i>
         Introduction & Motivation
       </h3>
+
+      <div id="lang-switcher">
+        <md-switch ng-model="data.lang" ng-true-value="'hu'" ng-false-value="'en'" aria-label="language Switcher" class="md-primary">HU</md-switch>
+        <md-tooltip>Switch language</md-tooltip>
+      </div>
     </md-card-title-text>
   </md-card-title>
   <md-card-content>
-    <p>{{data.introduction}}</p>
-    <p ng-if="data.motivation">{{data.motivation}}</p>
-  </md-card-content> 
+    <p>{{data.introduction[data.lang]}}</p>
+    <p ng-if="data.motivation">{{data.motivation[data.lang]}}</p>
+  </md-card-content>
 </md-card>

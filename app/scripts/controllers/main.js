@@ -32,8 +32,8 @@ angular.module('cvApp')
 		      {
 		      	parent: angular.element(document.body),
 		      	clickOutsideToClose: true,
-		      	template: '<noughts-and-crosses></noughts-and-crosses>',
-		      	ariaLabel: 'Noughts & Crosses'
+		      	template: '<tic-tac-toe></tic-tac-toe>',
+		      	ariaLabel: 'Tic Tac Toe'
 		      	// openFrom: '#dice-game',
 		      	// closeTo: '#dice-game'
 		      }
