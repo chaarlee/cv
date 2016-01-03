@@ -31,6 +31,7 @@
 		"Find the right position/roles for the colleagues",
 		"Develop and coach others",
 		"Inspire and motivate team members",
+		"Keep the project deadline and budget",
 		"Extreme fast programming",
 		"Work well under pressure (two people can replace me)"
 	],
@@ -140,7 +141,8 @@
 				"Agile": 5,
 				"Scrum": 5,
 				"Kanban": 4,
-				"Holocracy": 3
+				"Lean": 3,
+				"Holocracy": 1
 			}
 		},
 		{
