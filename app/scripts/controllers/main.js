@@ -17,7 +17,7 @@ angular.module('cvApp')
 
     $scope.keyPressed = function(e) {
     	console.log(e);
-	    if(e.altKey && e.shiftKey && e.keyCode === 353) {
+	    if(e.shiftKey && e.keyCode === 69) {
 	    	// console.log("Good Job!");
 	    	$mdDialog.show(
 		      // $mdDialog.alert()
