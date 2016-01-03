@@ -360,6 +360,11 @@
 			"name": "Personality profile",
 			"url": "http://chaarlee.hu/cv/doc/szemelyisegprofil_szirjak_csaba-2012.06.26.pdf",
 			"icon": "account_circle"
+		},
+		{
+			"name": "Who's the creator?",
+			"url": "http://chaarlee.hu/creator.php",
+			"icon": "help_outline"
 		}
 	]
 }
