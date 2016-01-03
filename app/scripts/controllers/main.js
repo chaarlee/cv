@@ -16,8 +16,8 @@ angular.module('cvApp')
     });
 
     $scope.keyPressed = function(e) {
-    	console.log(e);
-	    if(e.shiftKey && e.keyCode === 69) {
+    	// console.log(e);
+	    if(e.shiftKey && e.charCode === 69) {
 	    	// console.log("Good Job!");
 	    	$mdDialog.show(
 		      // $mdDialog.alert()

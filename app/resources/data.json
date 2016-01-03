@@ -6,6 +6,7 @@
 	"birth": "1983.02.24.",
 	"phone": "+36 70/242-7543",
 	"email": "csaba@szirjak.com",
+	"www": "http://csaba.szirjak.com",
 	"address": "Hungary, Budapest X.",
 	"qrcode": "images/qrcode.png",
 	"introduction": {
@@ -155,7 +156,6 @@
 				"Java": 3,
 				"REST": 3,
 				"MySQL": 4,
-				"PostgreSQL": 2,
 				"MongoDB": 2,
 				"HighCharts": 4,
 				"Architect": 4,
@@ -360,6 +360,11 @@
 			"name": "Personality profile",
 			"url": "http://chaarlee.hu/cv/doc/szemelyisegprofil_szirjak_csaba-2012.06.26.pdf",
 			"icon": "account_circle"
+		},
+		{
+			"name": "Download Csaba Szirják CV",
+			"url": "http://csaba.szirjak.com/images/Csaba-Szirjak-Curiculum-Vitae.pdf",
+			"icon": "file_download"
 		},
 		{
 			"name": "Who's the creator?",
