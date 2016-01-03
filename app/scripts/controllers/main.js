@@ -16,7 +16,8 @@ angular.module('cvApp')
     });
 
     $scope.keyPressed = function(e) {
-	    if(e.altKey && e.shiftKey && e.keyIdentifier === "U+0045") {
+    	console.log(e);
+	    if(e.altKey && e.shiftKey && e.keyCode === 353) {
 	    	// console.log("Good Job!");
 	    	$mdDialog.show(
 		      // $mdDialog.alert()
