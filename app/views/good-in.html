@@ -9,8 +9,8 @@
   </md-card-title>
   <md-card-content>
     <div ng-repeat="d in data['good-ins']">
-      <md-button class="md-fab md-primary"><i class="material-icons">done</i></md-button> 
-      <span class="md-headline">{{d}}</span>
+      <md-button class="md-fab" ng-class="isSelected(d)?'':'md-primary'" ng-click="select(d)"><i class="material-icons">done</i></md-button> 
+      <span class="md-headline" ng-click="select(d)">{{d}}</span>
       <md-divider md-inset ng-if="!$last"></md-divider>
     </div>
   </md-card-content> 

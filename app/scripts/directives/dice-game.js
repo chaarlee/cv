@@ -21,9 +21,9 @@ angular.module('cvApp')
     return {
      	templateUrl: 'views/dice-game.html',
      	scope: {
-			datasource: '=',
-			add: '&'
-		},
+			 datasource: '=',
+			 add: '&'
+		  },
      	controller: function($scope) {
       		$scope.roll = function() {
       			var value = Math.ceil(Math.random()*6);
