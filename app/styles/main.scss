@@ -149,3 +149,13 @@ quotation {
   left: -40px;
   top: 40px;
 }
+
+#noughts-and-crosses {
+  md-grid-list {
+    background-color: black;
+
+    md-grid-tile {
+      background-color: white;
+    }
+  }
+}

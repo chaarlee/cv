@@ -8,10 +8,36 @@
  * Controller of the cvApp
  */
 angular.module('cvApp')
-  .controller('MainCtrl', function ($scope, $http) {
+  .controller('MainCtrl', function ($scope, $http, $mdDialog) {
     
     $http.get('/resources/data.json').success(function(data) {
     	// console.log("data",data);
      	$scope.data = data;
     });
+
+    $scope.keyPressed = function(e) {
+	    if(e.altKey && e.shiftKey && e.keyIdentifier === "U+0045") {
+	    	// console.log("Good Job!");
+	    	$mdDialog.show(
+		      // $mdDialog.alert()
+		      //   .clickOutsideToClose(true)
+		      //   .title('Opening from the left')
+		      //   .textContent('<profile></profile>')
+		      //   .ariaLabel('Left to right demo')
+		      //   .ok("I can't win! :(")
+		      //   // You can specify either sting with query selector
+		      //   .openFrom('#dice-game')
+		      //   // or an element
+		      //   .closeTo(angular.element(document.querySelector('#right')))
+		      {
+		      	parent: angular.element(document.body),
+		      	clickOutsideToClose: true,
+		      	template: '<noughts-and-crosses></noughts-and-crosses>',
+		      	ariaLabel: 'Noughts & Crosses'
+		      	// openFrom: '#dice-game',
+		      	// closeTo: '#dice-game'
+		      }
+		    );
+	    }
+	};
   });

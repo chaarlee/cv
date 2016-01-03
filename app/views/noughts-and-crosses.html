@@ -1,0 +1,21 @@
+<div ng-if="!_winner">
+  <md-content id="noughts-and-crosses">
+    <!-- Noughts & Crosses -->
+    <md-grid-list md-cols="3" md-row-height="1:1" md-gutter="3px">
+      <md-grid-tile ng-repeat="n in [1,2,3,4,5,6,7,8,9]" ng-click="player(n)">
+        <i ng-if="board[n]" class="material-icons">{{icons[board[n]]}}</i>
+      </md-grid-tile>
+    </md-grid-list>
+  </md-content>
+</div>
+
+<div ng-if="_winner==='o'" layout-padding>
+  <h1 class="md-headline">You loose!</h1>
+  <md-button class="md-raised md-primary" ng-click="reset()">Play again</md-button>
+</div>
+
+<div ng-if="_winner==='x'" layout-padding>
+  <h1 class="md-headline">Congratulate! You win and found the last Easter Egg!</h1>
+  <iframe width="640" height="480" src="https://www.youtube.com/embed/iscnF-jyXoY" frameborder="0" allowfullscreen></iframe>
+  <h2 class="md-title">Check my video on YouTube!</h2>
+</div>

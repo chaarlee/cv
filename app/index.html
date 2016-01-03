@@ -18,14 +18,16 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" type="image/png" href="/images/favicon.png" />
   </head>
-  <body ng-app="cvApp" md-theme="cvTheme">
+  <body ng-app="cvApp" md-theme="cvTheme" ng-controller="MainCtrl">
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
 
-    <div id="container" ng-controller="MainCtrl">
+    <shortcut></shortcut>
+    
+    <div id="container">
 
   <!--   <md-fab-toolbar md-open="false" count="3"
                   md-direction="left">
@@ -112,6 +114,8 @@
         <script src="scripts/directives/links.js"></script>
         <script src="scripts/directives/posy.js"></script>
         <script src="scripts/directives/dice-game.js"></script>
+        <script src="scripts/directives/shortcut.js"></script>
+        <script src="scripts/directives/noughts-and-crosses.js"></script>
         <!-- endbuild -->
 </body>
 </html>

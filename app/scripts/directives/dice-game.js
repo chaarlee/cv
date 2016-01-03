@@ -34,7 +34,9 @@ angular.module('cvApp')
       			if(value === 6) {
       				$mdToast.show(
 				      $mdToast.simple()
-				        .textContent('Nice throw!')
+				        .textContent('Nice throw! Push the ALT+SHIFT+E to find the Easter Egg...')
+				        .action('OK')
+				        .highlightAction(true)
 				        .position('top right')
 				        .hideDelay(5000)
 				    );
