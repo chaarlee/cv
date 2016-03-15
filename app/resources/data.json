@@ -7,19 +7,20 @@
 	"phone": "+36 70/242-7543",
 	"email": "csaba@szirjak.com",
 	"www": "http://csaba.szirjak.com",
-	"address": "Hungary, Budapest X.",
+	"address": "Budapest X., Hungary",
 	"qrcode": "images/qrcode.png",
 	"introduction": {
-		"en": "I have worked at IT area since early 2000. Initially I dealt with software development as freelancer, later I realized, I could use better my acquired knowleadge as leader. I have found really myself in this role, because as IT leader I still have to solve problems and build systems at innovative areas. The different is that now I not only develope applications, but also build team. At 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could familiarize the profession with interested people in playful.",
+		"en": "I have worked at IT area since early 2000. Initially I dealt with software development as freelancer. Later I realized that I could use better my acquired knowleadge as a leader. I have found really my passion in this role, because as IT leader I still have to solve problems and build systems at innovative areas. The difference is that now I not only develope applications, but also build teams. In 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could introduce interested people to my profession playfully.",
 		"hu": "Az informatika területén dolgozom 2000 eleje óta. Kezdetben fejlesztésekkel foglalkoztam szabadúszóként, majd rájöttem, hogy a megszerzett tudást sokkal jobban hasznosíthatom vezetőként. Ebben a szerepben találtam meg igazán önmagam, mert IT vezetőként továbbra is problémákat kell megoldanom és rendszereket fejlesztenem innovatív területeken. A különbség az, hogy most már nem csak alkalmazásokat, hanem csapatot is építek. 2015-ben a Startupper társasjátékot fejlesztettem leendő vezetőknek és menedzsereknek, hogy játékos formában tudjam a szakmát minél több érdeklődővel megismertetni."
 	},
 	"motivation": {
-		"en": "I belive in the continuous learning (KaiZen), therefore I not only teach myself, I try to inspire and coaching others to the continuous learning. I like the challenges, because I can get the most from myself, I could be free creative and I feel I'm very effective and helpful.",
+		"en": "I belive in continuous learning (KaiZen), therefore I not only teach myself, I try to inspire and coache others. I like the challenges, because I can get the most out of myself, I can be free, creative and feel effective and helpful.",
 		"hu": "A folyamatos fejlődés (KaiZen) híve vagyok, ezért nem csak magamat, de másokat is arra ösztönzök, hogy folyamatosan tanuljanak. A kihívásokkal teli környezetet szeretem, mert itt tudom a legtöbbet kihozni magamból, itt szabadon alkothatok és ilyenkor érzem magam igazán hasznosnak."
 	},
 	"posy": "Stay Hungry. Stay Foolish.",
 	"good-ins": [
 		"Communication",
+		"Impress others",		
 		"Think to the future (proactive)",
 		"Understand the goals and needs (5W)",
 		"Focusing and fulfil the strategy",
@@ -43,7 +44,7 @@
 			"date-to": "Present",
 			"position": "Head of Software Development",
 			"description": "Lead a 15-person software development team at 3 different location (Budapest, Miskolc, Debrecen). The main profile of the team: develope online applications and services. The company won 4-times the Deloitte Technologie Fast 50 award.",
-			"tags": ["Team Leader", "Product Owner", "Coach", "Scrum Master", "Project Manager", "Architect", "UI/UX", "Agile", "Scrum", "Kanban", "Java", "AngularJS", "NodeJS", "REST", "SCSS", "MySQL", "MongoDB"]
+			"tags": ["Team Leader", "Product Owner", "Coach", "Scrum Master", "Project Manager", "Architect", "UI/UX", "Agile", "Scrum", "Java", "AngularJS", "NodeJS", "REST", "MySQL", "MongoDB"]
 		},
 		{
 			"company": "iData",
@@ -52,7 +53,7 @@
 			"date-to": "2013.12",
 			"position": "Head of Development",
 			"description": "Lead a 15-person softver and hardware development team. The company main profile: GPS tracking for cargo fleet. The company won 3-times the Deloitte Technologie Fast 50 award and iData was The Intelligent Company of The Year 2014.",
-			"tags": ["Team Leader", "Project Manager", "Online marketing", "Developer", "Agile", "Scrum", "Java", "KendoUI", "SEO"]
+			"tags": ["Team Leader", "Project Manager", "Online marketing", "Developer", "Agile", "Scrum", "Java", "SEO"]
 		},
 		{
 			"company": "Q-Gears",

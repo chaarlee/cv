@@ -17,7 +17,8 @@
       <div layout="column" flex="65">
         <span class="md-headline">{{d.position}}</span>
         <p ng-if="d.description">{{d.description}}</p>
-        <md-chips ng-model="d.tags" readonly="true"></md-chips>
+        <!-- readonly="true" -->
+        <md-chips ng-model="d.tags"></md-chips>
         <!-- <md-divider ng-if="!$last"></md-divider> -->
       </div>
     </div>
