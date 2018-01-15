@@ -10,7 +10,8 @@
 	"address": "Budapest X., Hungary",
 	"qrcode": "images/qrcode.png",
 	"introduction": {
-		"en": "I have worked at IT area since early 2000. Initially I dealt with software development as freelancer. Later I realized that I could use better my acquired knowleadge as a leader. I have found really my passion in this role, because as IT leader I still have to solve problems and building systems at innovative areas. The difference is that now I not only develope applications, but also building teams. In 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could introduce interested people to my profession playfully.",
+		"en": "I have been working at IT area since the beginning of 2000. I was working as a freelance software developer. Later I realized that I could use my skills and knowledge much better as a leader. Leadership is a perfect role for me to solve problems, develope systems and manage people at innovative areas. The difference is that now I not only develope applications, but also building teams. In 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could introduce interested people to my profession playfully.",
+		"en_old": "I have worked at IT area since early 2000. Initially I dealt with software development as freelancer. Later I realized that I could use better my acquired knowleadge as a leader. I have found really my passion in this role, because as IT leader I still have to solve problems and building systems at innovative areas. The difference is that now I not only develope applications, but also building teams. In 2015 I developed a boardgame (Startupper) for to-be leaders and managers, so I could introduce interested people to my profession playfully.",
 		"hu": "Az informatika területén dolgozom 2000 eleje óta. Kezdetben fejlesztésekkel foglalkoztam szabadúszóként, majd rájöttem, hogy a megszerzett tudást sokkal jobban hasznosíthatom vezetőként. Ebben a szerepben találtam meg igazán önmagam, mert IT vezetőként továbbra is problémákat kell megoldanom és rendszereket fejlesztenem innovatív területeken. A különbség az, hogy most már nem csak alkalmazásokat, hanem csapatot is építek. 2015-ben a Startupper társasjátékot fejlesztettem leendő vezetőknek és menedzsereknek, hogy játékos formában tudjam a szakmát minél több érdeklődővel megismertetni."
 	},
 	"motivation": {
@@ -38,10 +39,19 @@
 	],
 	"work-experiences": [
 		{
+			"company": "OTT-ONE",
+			"logo": "images/ott-one.png",
+			"date-from": "2017.01",
+			"date-to": "Present",
+			"position": "VP of Engineering",
+			"description": "Lead a 40-person software development team at 2 different locations (Budapest, Szombathely). The main profile of the team: develope stream base online applications and services and mobile apps. The company is the one of the fastest growing stock in the Hungarian Stock Exchange.",
+			"tags": ["Team Leader", "CTO", "Coach", "Scrum Master", "Project Manager", "Agile", "Scrum", "NodeJS", "PHP", "iOS", "Android"]
+		},
+		{
 			"company": "Dolphio Technologies",
 			"logo": "images/dolphio.png",
 			"date-from": "2014.01",
-			"date-to": "Present",
+			"date-to": "2017.01",
 			"position": "Head of Software Development",
 			"description": "Lead a 15-person software development team at 3 different locations (Budapest, Miskolc, Debrecen). The main profile of the team: develope online applications and services. The company won 4-times the Deloitte Technology Fast 50 award.",
 			"tags": ["Team Leader", "Product Owner", "Coach", "Scrum Master", "Project Manager", "Architect", "UI/UX", "Agile", "Scrum", "Java", "AngularJS", "NodeJS", "REST", "MySQL", "MongoDB"]
@@ -288,6 +298,21 @@
 		}
 	],
 	"references": [
+		{
+			"name": "Telenor MyTV",
+			"description": "Live TV streaming",
+			"url": "http://mytv.telenor.hu/info/#mytv"
+		},
+		{
+			"name": "BFZ",
+			"description": "The website of Budapest Fesztivál Zenekar",
+			"url": "https://www.bfz.hu/en"
+		},
+		{
+			"name": "Mobile Bio ID",
+			"description": "Secure mobile vein scanner solution",
+			"url": "http://ott-one.hu/uj-fejlesztesunk-mobile-bio-id/"
+		},
 		{
 			"name": "DCSIM",
 			"description": "Online simulation and analyst software for Data Centers",
