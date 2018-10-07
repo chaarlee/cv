@@ -251,6 +251,12 @@
 	],
 	"awards": [
 		{
+			"title": "Young Leader of The Year 2017",
+			"issuer": "CoachingTeam",
+			"date": "2018.02",
+			"description": "1th place @ SME category"
+		},
+		{
 			"title": "Young Leader of The Year 2015",
 			"issuer": "CoachingTeam",
 			"date": "2015.11",
@@ -298,6 +304,21 @@
 		}
 	],
 	"references": [
+		{
+			"name": "EuroSkills",
+			"description": "Trainer of the Web Development",
+			"url": "https://www.youtube.com/watch?v=YYBYARpJvxg"
+		},
+		{
+			"name": "Game of Codes",
+			"description": "Organize Coding Competition",
+			"url": "https://www.youtube.com/watch?v=XNYf6jXS6uY"
+		},
+		{
+			"name": "Develery",
+			"description": "Organization Development",
+			"url": "https://develery.com/"
+		},
 		{
 			"name": "Telenor MyTV",
 			"description": "Live TV streaming",
