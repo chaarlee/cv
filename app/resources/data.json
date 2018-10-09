@@ -6,7 +6,7 @@
 	"birth": "1983.02.24.",
 	"phone": "+36 70/242-7543",
 	"email": "csaba@szirjak.com",
-	"www": "http://csaba.szirjak.com",
+	"www": "https://csaba.szirjak.com",
 	"address": "Budapest X., Hungary",
 	"qrcode": "images/qrcode.png",
 	"introduction": {
@@ -21,21 +21,16 @@
 	"posy": "Stay Hungry. Stay Foolish.",
 	"good-ins": [
 		"Communication",
-		"Impress others",		
 		"Think to the future (proactive)",
 		"Understand the goals and needs (5W)",
-		"Focusing and fulfil the strategy",
 		"Solve problems creatively",
-		"Undertake conflicts for evolution",
 		"Design and implement processes",
 		"Introduce agile (Scrum, Kanban) methodologies",
 		"Automate the workflows, make them transparency",
 		"Find the right position/roles for the colleagues",
 		"Develop and coach others",
 		"Inspire and motivate team members",
-		"Keep the project deadline and budget",
-		"Extreme fast programming",
-		"Work well under pressure"
+		"Keep the project deadline and budget"
 	],
 	"work-experiences": [
 		{
@@ -198,7 +193,7 @@
 			"icon": "done",
 			"values": {
 				"Hungarian": 5,
-				"English": 3,
+				"English": 3.5,
 				"Driving License": 4,
 				"Handball": 5,
 				"Squash": 4,
@@ -250,6 +245,12 @@
 		}
 	],
 	"awards": [
+		{
+			"title": "Coach of Web Development",
+			"issuer": "EuroSkills",
+			"date": "2018.09",
+			"description": "Silver Medal (Balogh Ákos)"
+		},
 		{
 			"title": "Young Leader of The Year 2017",
 			"issuer": "CoachingTeam",
@@ -306,7 +307,7 @@
 	"references": [
 		{
 			"name": "EuroSkills",
-			"description": "Trainer of the Web Development",
+			"description": "Coach of the Web Development",
 			"url": "https://www.youtube.com/watch?v=YYBYARpJvxg"
 		},
 		{
@@ -398,7 +399,7 @@
 		},
 		{
 			"name": "MBTI: ENFJ",
-			"url": "http://lelektanitipusok.net/tipusok/nf/enfj/jellemzes",
+			"url": "https://www.16personalities.com/enfj-personality",
 			"icon": "gps_fixed"
 		},
 		{
@@ -418,7 +419,7 @@
 		},
 		{
 			"name": "Download Csaba Szirják CV",
-			"url": "http://csaba.szirjak.com/images/Csaba-Szirjak-Curiculum-Vitae.pdf",
+			"url": "https://csaba.szirjak.com/images/Csaba-Szirjak-Curiculum-Vitae.pdf",
 			"icon": "file_download"
 		},
 		{
