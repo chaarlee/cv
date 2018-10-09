@@ -20,13 +20,10 @@
 	},
 	"posy": "Stay Hungry. Stay Foolish.",
 	"good-ins": [
-		"Communication",
-		"Think to the future (proactive)",
 		"Understand the goals and needs (5W)",
 		"Solve problems creatively",
-		"Design and implement processes",
 		"Introduce agile (Scrum, Kanban) methodologies",
-		"Automate the workflows, make them transparency",
+		"Automatize the workflows, make them transparency",
 		"Find the right position/roles for the colleagues",
 		"Develop and coach others",
 		"Inspire and motivate team members",
@@ -384,18 +381,13 @@
 	"links": [
 		{
 			"name": "LinkedIn",
-			"url": "https://hu.linkedin.com/pub/csaba-szirják/83/ab7/912",
+			"url": "http://linkedin.com/in/csaba-szirjak/",
 			"icon": "link"
 		},
 		{
-			"name": "Competition of Young Leader of The Year 2015",
-			"url": "http://chaarlee.hu/EFVD",
+			"name": "Competition of Young Leader of The Year 2017",
+			"url": "https://www.slideshare.net/FiatalVezetokPalyazatai/2017-szirjak-csaba-v-fiatal-vezetje-plyzat",
 			"icon": "description"
-		},
-		{
-			"name": "VizualizeMe",
-			"url": "http://vizualize.me/chaarlee",
-			"icon": "insert_chart"
 		},
 		{
 			"name": "MBTI: ENFJ",
@@ -406,16 +398,6 @@
 			"name": "PAPI3 - Sales and Leadership profile",
 			"url": "http://chaarlee.hu/cv/doc/papi3_szirjak_csaba-2014.10.19.pdf",
 			"icon": "contacts"
-		},
-		{
-			"name": "S-CPI profile",
-			"url": "http://chaarlee.hu/cv/doc/cpi_szirjak_csaba-2013.10.31.pdf",
-			"icon": "account_box"
-		},
-		{
-			"name": "Personality profile",
-			"url": "http://chaarlee.hu/cv/doc/szemelyisegprofil_szirjak_csaba-2012.06.26.pdf",
-			"icon": "account_circle"
 		},
 		{
 			"name": "Download Csaba Szirják CV",
